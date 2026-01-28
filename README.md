@@ -22,7 +22,7 @@ This project aims to reduce inefficiencies in the shipping workflow while decrea
 
 | Phase | Initiative | Status | Proposal |
 |-------|-----------|--------|----------|
-| 1 | Thermal Label Printer | ✅ Submitted | [View Proposal](proposals/thermal-label-printer.md) |
+| 1 | Thermal Label Printer | ✅ Submitted, Pending Procurement | [View Proposal](proposals/thermal-label-printer.md) |
 | 2 | Tape Dispenser | 📝 Complete, Awaiting Submission | [View Proposal](proposals/tape-dispenser.md) |
 | 3 | User Instruction Sheets | 🔄 Feedback Collection | [View Initiative](initiatives/user-instruction-sheets.md) |
 
@@ -31,15 +31,9 @@ This project aims to reduce inefficiencies in the shipping workflow while decrea
 ```
 laptop-logistics-optimization/
 ├── README.md
-├── proposals/
-│   ├── thermal-label-printer.md    # Phase 1: Label printing optimization
-│   └── tape-dispenser.md           # Phase 2: Packaging efficiency
-├── process-docs/
-│   ├── laptop-replacement-process.md
-│   ├── new-hire-onboarding-mac.md
-│   └── new-hire-onboarding-windows.md
-└── initiatives/
-    └── user-instruction-sheets.md  # Phase 3: Post-shipment support reduction
+└── proposals/
+    ├── thermal-label-printer.md    # Phase 1: Label printing optimization
+    └── tape-dispenser.md           # Phase 2: Packaging efficiency
 ```
 
 ## Key Metrics
@@ -47,12 +41,6 @@ laptop-logistics-optimization/
 - **Current shipping volume:** ~78 laptops/month (validated via FedEx delivery confirmations)
 - **Target improvement:** Reduce technician time spent on shipping tasks
 - **Success measure:** Decrease in post-shipment support tickets
-
-## Documentation
-
-Process documentation is maintained in the `process-docs/` directory and covers:
-- Asset tracking and replacement procedures
-- New hire onboarding guides (Mac & Windows)
 
 ## Contributing
 
